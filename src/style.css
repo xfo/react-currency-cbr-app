@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.currency-table-wrapper {
+    border-collapse: collapse;
+    line-height: 40px;
+    border-spacing: 0;
+    width: 50%
+}
+
+.currency-table-wrapper .is-choosen {
+    background: #caad89;
+    color: #fff;
+}
+
+.currency-table-wrapper td {
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.currency-table-wrapper td button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.currency-table-wrapper td button.select-currency-button {
+    background: #e4e4e4;
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.app-wrapper {
+    display: flex;
+}
+
+.chart-wrapper {
+    width: 50%;
+    background: #caad89;
+}
+
+.chart-fixed-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+}
+
+.loader-wrapper {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loader {
+    margin-top: 50%;
+}
